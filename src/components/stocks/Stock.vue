@@ -1,5 +1,5 @@
 <template>
-    <h1>Ação</h1>
+    <v-flex></v-flex>
 </template>
 
 <script>
