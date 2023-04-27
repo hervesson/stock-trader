@@ -33,8 +33,7 @@ export default {
                 quantity: this.quantity
             }
 
-            console.log(order)
-
+            this.$store.dispath('buyStock', order)
             this.quantity = 0
         }
     }
