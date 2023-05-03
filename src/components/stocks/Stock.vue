@@ -32,8 +32,7 @@ export default {
                 stockPrice: this.stock.price,
                 quantity: this.quantity
             }
-
-            this.$store.dispath('buyStock', order)
+            this.$store.dispatch('buyStock', order)
             this.quantity = 0
         }
     }
@@ -41,4 +40,5 @@ export default {
 </script>
 
 <style>
+
 </style>

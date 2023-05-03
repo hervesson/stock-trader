@@ -8,7 +8,7 @@ export default {
             const record = state.stocks.find(element => element.id == stockId)
             if(record) {
                 record.quantity += quantity
-            }else{
+            } else {
                 state.stocks.push({
                     id: stockId,
                     quantity: quantity
@@ -34,7 +34,7 @@ export default {
     getters: {
         stockPortifolio(state, getters){
             return state.stocks.map(stock => {
-                const record = getters.stocks.find(elemento.id == stock.id)
+                const record = getters.stocks.find(element => element.id == stock.id)
                 return {
                     id: stock.id,
                     quantity: stock.quantity,
