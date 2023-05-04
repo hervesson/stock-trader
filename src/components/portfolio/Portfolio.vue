@@ -15,7 +15,7 @@ export default {
     components: { Stock },
     computed: {
         ...mapGetters({
-            stocks: 'stockPortifolio'
+            stocks: 'stockPortfolio'
         })
     }
 }
